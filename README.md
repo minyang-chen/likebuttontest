@@ -1,3 +1,3 @@
 # likebuttontest
 
-Clapping
+automate testing including github actions
