@@ -1,0 +1,21 @@
+action: py37, msg: getenv
+cwd: /mnt/workdisk/github/likebuttontest
+cmd: /mnt/workdisk/github/likebuttontest/.tox/py37/bin/python -m pip install -r/mnt/workdisk/github/likebuttontest/requirements_dev.txt
+Traceback (most recent call last):
+  File "/home/disco/anaconda3/envs/spark_py37/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/disco/anaconda3/envs/spark_py37/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/mnt/workdisk/github/likebuttontest/.tox/py37/lib/python3.7/site-packages/pip/__main__.py", line 16, in <module>
+    from pip._internal.cli.main import main as _main  # isort:skip # noqa
+  File "/mnt/workdisk/github/likebuttontest/.tox/py37/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 10, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/mnt/workdisk/github/likebuttontest/.tox/py37/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 9, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/mnt/workdisk/github/likebuttontest/.tox/py37/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 7, in <module>
+    from pip._internal.cli import cmdoptions
+  File "/mnt/workdisk/github/likebuttontest/.tox/py37/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py", line 24, in <module>
+    from pip._internal.exceptions import CommandError
+  File "/mnt/workdisk/github/likebuttontest/.tox/py37/lib/python3.7/site-packages/pip/_internal/exceptions.py", line 10, in <module>
+    from pip._vendor.six import iteritems
+ModuleNotFoundError: No module named 'pip._vendor.six'

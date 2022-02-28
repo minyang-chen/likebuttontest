@@ -1,0 +1,51 @@
+action: py38, msg: getenv
+cwd: /mnt/workdisk/github/likebuttontest
+cmd: /mnt/workdisk/github/likebuttontest/.tox/py38/bin/python -m pip install -r/mnt/workdisk/github/likebuttontest/requirements_dev.txt
+Collecting flake8==3.9.2
+  Downloading flake8-3.9.2-py2.py3-none-any.whl (73 kB)
+Collecting tox==3.24.3
+  Downloading tox-3.24.3-py2.py3-none-any.whl (85 kB)
+Collecting pytest==6.2.5
+  Using cached pytest-6.2.5-py3-none-any.whl (280 kB)
+Collecting pytest-cov==2.12.1
+  Downloading pytest_cov-2.12.1-py2.py3-none-any.whl (20 kB)
+Collecting mypy===0.910
+  Downloading mypy-0.910-cp38-cp38-manylinux2010_x86_64.whl (22.8 MB)
+Collecting pyflakes<2.4.0,>=2.3.0
+  Downloading pyflakes-2.3.1-py2.py3-none-any.whl (68 kB)
+Collecting mccabe<0.7.0,>=0.6.0
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting pycodestyle<2.8.0,>=2.7.0
+  Downloading pycodestyle-2.7.0-py2.py3-none-any.whl (41 kB)
+Collecting six>=1.14.0
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting toml>=0.9.4
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting packaging>=14
+  Using cached packaging-21.3-py3-none-any.whl (40 kB)
+Collecting virtualenv!=20.0.0,!=20.0.1,!=20.0.2,!=20.0.3,!=20.0.4,!=20.0.5,!=20.0.6,!=20.0.7,>=16.0.0
+  Downloading virtualenv-20.13.2-py2.py3-none-any.whl (8.7 MB)
+Collecting pluggy>=0.12.0
+  Using cached pluggy-1.0.0-py2.py3-none-any.whl (13 kB)
+Collecting py>=1.4.17
+  Using cached py-1.11.0-py2.py3-none-any.whl (98 kB)
+Collecting filelock>=3.0.0
+  Using cached filelock-3.6.0-py3-none-any.whl (10.0 kB)
+Collecting attrs>=19.2.0
+  Using cached attrs-21.4.0-py2.py3-none-any.whl (60 kB)
+Collecting iniconfig
+  Using cached iniconfig-1.1.1-py2.py3-none-any.whl (5.0 kB)
+Collecting coverage>=5.2.1
+  Using cached coverage-6.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (212 kB)
+Collecting mypy-extensions<0.5.0,>=0.4.3
+  Using cached mypy_extensions-0.4.3-py2.py3-none-any.whl (4.5 kB)
+Collecting typing-extensions>=3.7.4
+  Using cached typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting pyparsing!=3.0.5,>=2.0.2
+  Using cached pyparsing-3.0.7-py3-none-any.whl (98 kB)
+Collecting distlib<1,>=0.3.1
+  Using cached distlib-0.3.4-py2.py3-none-any.whl (461 kB)
+Collecting platformdirs<3,>=2
+  Using cached platformdirs-2.5.1-py3-none-any.whl (14 kB)
+Installing collected packages: pyflakes, mccabe, pycodestyle, flake8, six, toml, pyparsing, packaging, filelock, distlib, platformdirs, virtualenv, pluggy, py, tox, attrs, iniconfig, pytest, coverage, pytest-cov, mypy-extensions, typing-extensions, mypy
+Successfully installed attrs-21.4.0 coverage-6.3.2 distlib-0.3.4 filelock-3.6.0 flake8-3.9.2 iniconfig-1.1.1 mccabe-0.6.1 mypy-0.910 mypy-extensions-0.4.3 packaging-21.3 platformdirs-2.5.1 pluggy-1.0.0 py-1.11.0 pycodestyle-2.7.0 pyflakes-2.3.1 pyparsing-3.0.7 pytest-6.2.5 pytest-cov-2.12.1 six-1.16.0 toml-0.10.2 tox-3.24.3 typing-extensions-4.1.1 virtualenv-20.13.2

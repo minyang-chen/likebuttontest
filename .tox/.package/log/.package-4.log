@@ -1,0 +1,11 @@
+action: .package, msg: get-build-requires
+cwd: /mnt/workdisk/github/likebuttontest
+cmd: /mnt/workdisk/github/likebuttontest/.tox/.package/bin/python /usr/lib/python3/dist-packages/tox/helper/build_requires.py setuptools.build_meta ''
+running egg_info
+writing src/clapping.egg-info/PKG-INFO
+writing dependency_links to src/clapping.egg-info/dependency_links.txt
+writing requirements to src/clapping.egg-info/requires.txt
+writing top-level names to src/clapping.egg-info/top_level.txt
+reading manifest file 'src/clapping.egg-info/SOURCES.txt'
+writing manifest file 'src/clapping.egg-info/SOURCES.txt'
+[]

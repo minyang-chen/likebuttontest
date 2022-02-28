@@ -1,0 +1,22 @@
+action: py38, msg: installpkg
+cwd: /mnt/workdisk/github/likebuttontest
+cmd: /mnt/workdisk/github/likebuttontest/.tox/py38/bin/python -m pip install --no-deps -U .tox/.tmp/package/1/clapping-0.0.0.tar.gz
+Processing ./.tox/.tmp/package/1/clapping-0.0.0.tar.gz
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+    Preparing wheel metadata: started
+    Preparing wheel metadata: finished with status 'done'
+Building wheels for collected packages: clapping
+  Building wheel for clapping (PEP 517): started
+  Building wheel for clapping (PEP 517): finished with status 'done'
+  Created wheel for clapping: filename=clapping-0.0.0-py3-none-any.whl size=2781 sha256=338c4530dac3e3befdf747f00a0bf79c076e533dfd669eb7c1cddc795ee936df
+  Stored in directory: /home/disco/.cache/pip/wheels/59/3e/58/9ff9d5e997c47986ef94bff005bcbcf5e0e47f0ad59aeec848
+Successfully built clapping
+Installing collected packages: clapping
+  Attempting uninstall: clapping
+    Found existing installation: clapping 0.0.0
+    Uninstalling clapping-0.0.0:
+      Successfully uninstalled clapping-0.0.0
+Successfully installed clapping-0.0.0

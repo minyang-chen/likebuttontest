@@ -1,0 +1,39 @@
+action: .package, msg: perform-isolated-build
+cwd: /mnt/workdisk/github/likebuttontest
+cmd: /mnt/workdisk/github/likebuttontest/.tox/.package/bin/python /usr/lib/python3/dist-packages/tox/helper/build_isolated.py .tox/dist setuptools.build_meta ''
+running sdist
+running egg_info
+writing src/clapping.egg-info/PKG-INFO
+writing dependency_links to src/clapping.egg-info/dependency_links.txt
+writing requirements to src/clapping.egg-info/requires.txt
+writing top-level names to src/clapping.egg-info/top_level.txt
+reading manifest file 'src/clapping.egg-info/SOURCES.txt'
+writing manifest file 'src/clapping.egg-info/SOURCES.txt'
+running check
+warning: check: missing required meta-data: url
+
+warning: check: missing meta-data: if 'author' supplied, 'author_email' must be supplied too
+
+creating clapping-0.0.0
+creating clapping-0.0.0/src
+creating clapping-0.0.0/src/clapping
+creating clapping-0.0.0/src/clapping.egg-info
+copying files to clapping-0.0.0...
+copying LICENSE -> clapping-0.0.0
+copying README.md -> clapping-0.0.0
+copying pyproject.toml -> clapping-0.0.0
+copying setup.cfg -> clapping-0.0.0
+copying setup.py -> clapping-0.0.0
+copying src/clapping/__init__.py -> clapping-0.0.0/src/clapping
+copying src/clapping/click_like_button.py -> clapping-0.0.0/src/clapping
+copying src/clapping/py.typed -> clapping-0.0.0/src/clapping
+copying src/clapping.egg-info/PKG-INFO -> clapping-0.0.0/src/clapping.egg-info
+copying src/clapping.egg-info/SOURCES.txt -> clapping-0.0.0/src/clapping.egg-info
+copying src/clapping.egg-info/dependency_links.txt -> clapping-0.0.0/src/clapping.egg-info
+copying src/clapping.egg-info/not-zip-safe -> clapping-0.0.0/src/clapping.egg-info
+copying src/clapping.egg-info/requires.txt -> clapping-0.0.0/src/clapping.egg-info
+copying src/clapping.egg-info/top_level.txt -> clapping-0.0.0/src/clapping.egg-info
+Writing clapping-0.0.0/setup.cfg
+Creating tar archive
+removing 'clapping-0.0.0' (and everything under it)
+clapping-0.0.0.tar.gz

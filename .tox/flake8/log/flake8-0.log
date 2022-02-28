@@ -1,0 +1,7 @@
+action: flake8, msg: getenv
+cwd: /mnt/workdisk/github/likebuttontest/.tox
+cmd: /usr/bin/python3 -m virtualenv --no-download --python /home/disco/anaconda3/envs/spark_py37/bin/python3.7 flake8
+created virtual environment CPython3.7.10.final.0-64 in 137ms
+  creator CPython3Posix(dest=/mnt/workdisk/github/likebuttontest/.tox/flake8, clear=False, global=False)
+  seeder FromAppData(download=False, pip=latest, setuptools=latest, wheel=latest, pkg_resources=latest, via=copy, app_data_dir=/home/disco/.local/share/virtualenv/seed-app-data/v1.0.1.debian.1)
+  activators BashActivator,CShellActivator,FishActivator,PowerShellActivator,PythonActivator,XonshActivator
